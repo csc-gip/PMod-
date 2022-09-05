@@ -1,0 +1,88 @@
+ body {
+    font-size: 10pt !important;
+ }
+ label-area {
+      padding: 4px 24px!important;
+  }
+  formula {
+    padding: 3px !important;
+  }
+  formula-area {
+      padding: 3px !important;
+  }  
+  formula-input-area {
+      padding: 3px !important;
+      justify-content: center !important;
+      border-width: 3px !important;
+  }
+  documentation-area {
+      background-color: aliceblue !important;
+  }
+  content-area {
+    padding: 3px !important;
+  }
+  foreach>content-area {
+    border-style: dotted !important;
+  }
+  conditional-branching>content-area {
+    border-left-width: 10px !important;
+    border-right-width: 10px !important;
+  }
+  .add-branch-button-area {
+    border-left-width: 10px !important;
+    border-right-width: 10px !important;
+  }
+  conditional-branching>formula-input-area {
+      background-color: antiquewhite !important;
+  }
+  conditional-choice>content-area {
+    border-left-width: 10px !important;
+    border-right-width: 10px !important;
+  }
+  conditional-choice>formula-input-area {
+      background-color: antiquewhite !important;
+  }
+  exception-handling content-area {
+      background-color: lightsalmon !important;
+  }
+  compensation content-area {
+      background-color: khaki !important;
+  }
+  service-step {
+        margin: 12px !important;
+  }
+  .formula-wrapper {
+      padding-right: 3px !important;
+  }
+ .variable-drop-area {
+     padding: 4px !important;
+  }
+ .foreach-header-wrapper {
+      padding: 3px !important;
+  }
+  /* top bar and tab bar and gip logo*/
+  a.mat-list-item {
+      height: unset !important;
+  }
+  div.meta-nav>svg {
+      height: unset !important;      
+  }
+  div.mat-tab-label {
+      height: 24px !important;      
+  }
+  mat-tab-header {
+      min-height: unset !important;      
+  }
+  /* progress animation while loading/closing workflow */
+  div.mat-tab-label-content>xc-spinner>mat-spinner {
+    width: 50px !important;
+    height:  50px !important;
+    margin: 25px !important;
+  }
+  div.mat-tab-label-content>xc-spinner>mat-spinner>svg {
+    width: 50px !important;
+    height:  50px !important;
+  }
+.zeta-scrollbar {
+ scrollbar-width: auto !important;
+}  

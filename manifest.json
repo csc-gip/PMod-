@@ -1,0 +1,22 @@
+{
+    "name": "PMod²",
+    "description": "Modify Process Modeller Style and add some helpers. Doubleclick on Query/Mapping to hide/show.",
+    "author": "csc-gip@users.noreply.github.com",
+    "version": "0.2",
+    "icons": {
+        "18": "icons/icon18.png",
+        "24": "icons/icon24.png",
+        "36": "icons/icon36.png",
+        "48": "icons/icon48.png",
+        "72": "icons/icon72.png",
+        "96": "icons/icon96.png"
+    },
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+            "matches": ["*://*/modeller_de-DE/*", "*://*/modeller_en-US/*"],
+            "js": ["js/pmodmod.js"],
+            "css": ["css/pmodmod.css"]
+        }
+    ]
+}
