@@ -11,7 +11,7 @@
         "72": "icons/icon72.png",
         "96": "icons/icon96.png"
     },
-    "manifest_version": 2,
+    "manifest_version": 3,
     "content_scripts": [
         {
             "matches": ["*://*/modeller_de-DE/*", "*://*/modeller_en-US/*", "*://modeller/*"],
