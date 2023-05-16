@@ -14,7 +14,7 @@
     "manifest_version": 2,
     "content_scripts": [
         {
-            "matches": ["*://*/modeller_de-DE/*", "*://*/modeller_en-US/*"],
+            "matches": ["*://*/modeller_de-DE/*", "*://*/modeller_en-US/*", "*://modeller/*"],
             "js": ["js/pmodmod.js"],
             "css": ["css/pmodmod.css"]
         }
